@@ -1,0 +1,26 @@
+{
+  "name": "server1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/redis": "^4.0.11",
+    "@types/uuid": "^10.0.0",
+    "@types/ws": "^8.5.12",
+    "chess.js": "^1.0.0-beta.8",
+    "redis": "^4.7.0",
+    "save-dev": "^0.0.1-security",
+    "uuid": "^10.0.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  }
+}
